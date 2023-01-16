@@ -67,10 +67,10 @@ header .menuOpen span{
     top: 0;
     left: 0;
 }
-header .menuOpen span .mid{
+header .menuOpen span.mid{
     top: 50%;
 }
-header .menuOpen span .bot{
+header .menuOpen span.bot{
     top: 100%;
 }
 header .book{
