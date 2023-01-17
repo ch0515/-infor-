@@ -244,3 +244,18 @@ header .right li .logo a img:nth-child(2){
     animation-name: trans;
     animation-duration: 4.5s;
 }
+@keyframes opa{
+    0%{opacity: 0;}
+}
+.visual .slide .mainText strong {
+    animation-name: opa;
+    animation-duration: 2s;
+}
+@keyframes slide-up{
+    0%{opacity: 0;}
+    20%{opacity: 0; transform: translateY(10px);}
+}
+.visual .slide .mainText > p{
+    animation: slide-up;
+    animation-duration: 1.5s;
+}
