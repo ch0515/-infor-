@@ -47,7 +47,6 @@ header{
     z-index: 100;
     position: fixed;
     top: 0;
-    transition: all 0.5s;
 }
 header .menuOpen{
     display: inline-block;
@@ -240,22 +239,31 @@ header .right li .logo a img:nth-child(2){
     70%{opacity: 1; transform: translateY(0);}
     100%{opacity: 0; transform: translateY(-15px);}
 }
-.visual .slide .mainText .num span{
+.visual .slide .slick-active .mainText .num span{
     animation-name: trans;
     animation-duration: 4.5s;
 }
 @keyframes opa{
     0%{opacity: 0;}
 }
-.visual .slide .mainText strong {
+.visual .slide .slick-active .mainText strong {
     animation-name: opa;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 @keyframes slide-up{
     0%{opacity: 0;}
     20%{opacity: 0; transform: translateY(10px);}
 }
-.visual .slide .mainText > p{
+.visual .slide .slick-active .mainText > p{
     animation: slide-up;
     animation-duration: 1.5s;
+}
+@keyframes scaleani{
+    0%{
+        transform: scale(1.1);
+    }
+}
+.visual .slide li.slick-active img{
+    animation-name: scaleani;
+    animation-duration: 4.5s;
 }
