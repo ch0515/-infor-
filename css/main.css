@@ -42,7 +42,7 @@ header{
     box-sizing: border-box;
     height: 100px;
     line-height: 100px;
-    color: #ffffff;
+    color: #fff;
     z-index: 100;
     position: fixed;
     top: 0;
@@ -60,7 +60,7 @@ header .menuOpen span{
     display: block;
     width: 100%;
     height: 1px;
-    background: #ffffff;
+    background: #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -153,26 +153,27 @@ header .right li .logo a img:nth-child(2){
 /*Visual .mainText*/
 .visual .slide .mainText{
     position: absolute;
-    top: 18%;
+    top: 35%;
     right: 18%;
     width: 25%;
 }
 .visual .slide .mainText strong{
     display: block;
-    font-size: 35px;
-    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 30px;
     font-weight: 500;
     letter-spacing: 2px;
+    opacity: 1;
 }
 .visual .slide .mainText > p{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: normal;
     line-height: 1.8;
     margin-bottom: 70px;
 }
 .visual .slide .mainText .num{
     position: relative;
-    font-size: 27px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -184,7 +185,7 @@ header .right li .logo a img:nth-child(2){
     opacity: 0;
 }
 .visual .slide .mainText .message{
-    font-size: 23px;
+    font-size: 26px;
     line-height: 1.2;
 }
 /*비주얼 공통 하단 메뉴*/
@@ -196,7 +197,7 @@ header .right li .logo a img:nth-child(2){
     padding-bottom: 7px;
     overflow: hidden;
 }
-.visual .menu::after{
+.visual .menu:after{
     content: '';
     width: 100%;
     height: 4px;
@@ -266,6 +267,7 @@ header .right li .logo a img:nth-child(2){
     animation-name: scaleani;
     animation-duration: 4.5s;
 }
+
 .introduce{
     width: 88%;
     margin: 130px auto 0;
@@ -300,16 +302,17 @@ header .right li .logo a img:nth-child(2){
     height: 100%;
     font-size: 16px;
 }
-.introduce .roomInfo .tab li .on{
+.introduce .roomInfo .tab li.on{
     color: #a68164;
 }
+
 .introduce .roomInfo .tab li a span{
     display: inline-block;
     position: relative;
     padding: 5px 0;
     box-sizing: border-box;
 }
-.introduce .roomInfo .tab li a span:after {
+.introduce .roomInfo .tab li a span::after{
     content: '';
     position: absolute;
     left: 0;
@@ -322,7 +325,7 @@ header .right li .logo a img:nth-child(2){
 .introduce .roomInfo .tab li a span:hover:after{
     width: 100%;
 }
-/*introduce tabBox*/
+/*.introduce tabBox*/
 .introduce .roomInfo .tabBox{
     width: 100%;
     position: absolute;
@@ -330,7 +333,7 @@ header .right li .logo a img:nth-child(2){
     top: 11%;
     display: none;
 }
-.introduce .roomInfo .tabBox .on{
+.introduce .roomInfo .tabBox.on{
     display: block;
 }
 .introduce .roomInfo .tabBox .deluxe{
@@ -345,7 +348,7 @@ header .right li .logo a img:nth-child(2){
 .introduce .roomInfo .tabBox .deluxe .photo img{
     width: 100%;
 }
-.introduce .roomInfo .tabBox .deluxe .photo .showBox{
+.introduce .roomInfo .tabBox .photo .showBox{
     width: 25%;
     position: absolute;
     left: 8%;
@@ -353,13 +356,31 @@ header .right li .logo a img:nth-child(2){
     color: #fff;
     letter-spacing: 1.5px;
 }
-.introduce .tabBox .deluxe .photo .name{
+.introduce .roomInfo .tabBox .deluxe .photo .showBox .name{
     padding-bottom: 15px;
     box-sizing: border-box;
     border-bottom: 1px solid rgba(235, 235, 235, 0.33);
+    margin-bottom: 10px;
+    position: relative;
+}
+.introduce .roomInfo .tabBox .deluxe .photo .showBox .name:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: bar 4s;
+}
+.introduce .roomInfo .tabBox .deluxe .photo .showBox .btn{
+    letter-spacing: 1px;
     margin-bottom: 10px;
 }
 .introduce .roomInfo .tabBox .deluxe .txtinfo{
     float: right;
     width: 40%;
+    text-align: center;
+    margin-top: 180px;
 }
+
