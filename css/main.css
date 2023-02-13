@@ -383,4 +383,28 @@ header .right li .logo a img:nth-child(2){
     text-align: center;
     margin-top: 180px;
 }
+.introduce .roomInfo .tabBox .deluxe .txtinfo .titBox{
+    margin-bottom: 120px;
+}
+.introduce .roomInfo .tabBox .deluxe .txtinfo .titBox h3{
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.introduce .roomInfo .tabBox .deluxe .txtinfo .titBox p{
+    font-size: 17px;
+    color: #604d3e;
+}
+.introduce .roomInfo .tabBox .txtinfo .inner_detail li{
+    margin-bottom: 50px;
+}
+.introduce .roomInfo .tabBox .txtinfo .inner_detail li span{
+    display: block;
+    margin-bottom: 20px;
+    color: #a68164;
+}
+.introduce .roomInfo .tabBox .txtinfo .inner_detail li p{
+    font-size: 17px;
+}
 

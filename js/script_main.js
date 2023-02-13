@@ -1,3 +1,8 @@
+//스크립트 새창으로 튕기는 것 방지
+$(document).on('click', 'a[href="#"]', function(e){
+    e.preventDefault();
+});
+
 //slick.js
 
 $(function(){
@@ -11,3 +16,12 @@ $(function(){
         pauseOnFocus: false // 포커스시 정지
     });
 });
+
+//탭메뉴
+$(function(){
+    $('.introduce .roomInfo .tab li a').on('click',function(){
+        let num = $('.introduce .roomInfo .tab li a').index($(this)); // 자신의 인덱스를 변수num에 넣어라
+        $('.introduce .roomInfo .tabBox').removeClass('on');
+        $('.introduce .roomInfo .tabBox:eq('+num+')').addClass('on');
+    });
+})
