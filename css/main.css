@@ -408,3 +408,38 @@ header .right li .logo a img:nth-child(2){
     font-size: 17px;
 }
 
+/*.introduce .motion*/
+@keyframes slide-up2{
+    0%{opacity: 0;}
+    20%{opacity: 0; transform: translateY(40px);}
+}
+.introduce .title.motion {
+    animation-name: slide-up2;
+    animation-duration: 1.2s;
+}/*title class에 motion클래스가 붙으면...*/
+.introduce .roomInfo.motion{
+    animation-name: slide-up2;
+    animation-duration: 0.8s;
+}
+.introduce .roomInfo.motion .tabBox .deluxe .photo .showBox .name{
+    animation-name: slide-up2;
+    animation-duration: 2s;
+}
+.introduce .roomInfo.motion .tabBox .deluxe .txtinfo .titBox h3{
+    animation-name: slide-up2;
+    animation-duration: 1.4s;
+}
+.introduce .roomInfo.motion .tabBox .deluxe .txtinfo .titBox p{
+    animation-name: slide-up2;
+    animation-duration: 1.6s;
+}
+.introduce .roomInfo .tabBox .deluxe .txtinfo .inner_detail li{
+    animation-name: slide-up2;
+    animation-duration: 1.8s;
+}
+.introduce .roomInfo .tabBox .deluxe .txtinfo .inner_detail li:nth-child(2){
+    animation-duration: 2s;
+}
+.introduce .roomInfo .tabBox .deluxe .txtinfo .inner_detail li:nth-child(3){
+    animation-duration: 2.2;
+}
