@@ -602,3 +602,21 @@ header .right li .logo a img:nth-child(2){
     color: #a68164;
     line-height: 1.6;
 }
+
+/*intro_dining .slick-active*/
+.intro_dining .slide2 .slick-active .slide_txt h3{
+    animation-name: slide-up2;
+    animation-duration: 0.6s;
+}
+.intro_dining .slide2 .slick-active .slide_txt p{
+    animation-name: slide-up2;
+    animation-duration: 1.0s;
+}
+.intro_dining .slide2 .slick-active .slide_txt a{
+    animation-name: slide-up2;
+    animation-duration: 1.2s;
+}
+.intro_dining .intro_diningTxt.motion h3{
+    animation-name: slide-up2;
+    animation-duration: 2s;
+}
