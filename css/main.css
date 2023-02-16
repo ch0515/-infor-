@@ -620,3 +620,30 @@ header .right li .logo a img:nth-child(2){
     animation-name: slide-up2;
     animation-duration: 2s;
 }
+
+/*section.greetings*/
+.greetings{
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 100px;
+}
+.greetings h2{
+    font-size: 17px;
+    font-weight: normal;
+    color: #a68164;
+    margin-bottom: 60px;
+}
+.greetings h3{
+    font-size: 32px;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.greetings a{
+    display: block;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #a68164;
+    padding: 12px 20px;
+}
