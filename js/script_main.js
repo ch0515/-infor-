@@ -44,3 +44,10 @@ $(function(){
         once: false //스크롤시 딱 한번만 하고 싶을땐 true
     });
 })
+
+//패밀리 사이트
+$(function(){
+    $('.txt_wrap .btn_fam').on('click', function(){
+        $('.fam_site_wrap .item_wrap').slideToggle();
+    })
+})

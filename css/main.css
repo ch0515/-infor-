@@ -868,8 +868,13 @@ footer .foot_inner .footer_right .fam_site_wrap{
     width: 170px;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 30px;
     font-size: 13px;
+}
+footer .foot_inner .footer_right .fam_site_wrap .txt_wrap{
+    width: 100%;
+    height: 33px;
+    margin-bottom: 10px;
 }
 footer .foot_inner .footer_right .fam_site_wrap .txt_wrap .btn_fam{
     display: block;
@@ -883,10 +888,32 @@ footer .foot_inner .footer_right .fam_site_wrap .txt_wrap .btn_fam{
     border-radius: 3px;
     cursor: pointer;
     margin-bottom: 20px;
+    margin-bottom: 20px;
 }
-
-
-
+footer .foot_inner .footer_right .fam_site_wrap .txt_wrap .btn_fam .fma_sit_tit{
+    margin-right: 55px;
+}
 footer .foot_inner .footer_right .fam_site_wrap .item_wrap{
     display: none;
+    width: 100%;
+    height: 156px;
+    padding: 18px 20px 16px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 58px;
+    background: #fff;
+    overflow: scroll;
+}
+footer .foot_inner .footer_right .fam_site_wrap .item_wrap a{
+    color: #1d212a;
+    display: block;
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    transition: 0.4s color ease;
+}
+footer .foot_inner .footer_right .fam_site_wrap .copy{
+    font-size: 11px;
+    color: #888;
 }
