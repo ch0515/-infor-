@@ -50,4 +50,13 @@ $(function(){
     $('.txt_wrap .btn_fam').on('click', function(){
         $('.fam_site_wrap .item_wrap').slideToggle();
     })
-})
+});
+
+$(function(){
+    $('header .menuOpen').on('click', function(){
+        $('header .menuWrap').addClass('on');
+    });
+    $('.menuWrap .close').on('click', function(){
+        $('.menuWrap').removeClass('on');
+    });
+});
