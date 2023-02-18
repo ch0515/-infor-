@@ -161,6 +161,9 @@ header{
     position: fixed;
     top: 0;
 }
+header.on{
+    background: rgba(96, 77, 62, 0.3);
+}
 header .menuOpen{
     display: inline-block;
     position: absolute;
